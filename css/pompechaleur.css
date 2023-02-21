@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+/*HEADER*/
+header {
+  background-image: url("/img/header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  color: white;
+  font-weight: bold;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#title {
+  width: 500px;
+  margin: auto;
+}
+
+#txt-form-header {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#container-text-header{
+  width: 35%;
+  font-size: 20px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+header span {
+  color: #4BF50F;
+}
+
+/*FORMULAIRE*/
+
+#form {
+  background-color: #5E8763;
+  opacity: 0.8;
+  width: 50%;
+  height: 700px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#form p{
+  font-size: 20px;
+}
+
+.f2pl {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4BF50F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.fl {
+  width: 95%;
+  margin: auto;
+  background-color: red;
+  margin-top: 30px;
+}
+
+#fl input {
+  width: 100%;
+}
+
+#fb {
+  background-color: blueviolet;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+#fb input {
+  width: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+
+
