@@ -2,6 +2,17 @@
   padding: 0;
   margin: 0;
   font-family: arial;
+  list-style-type: none;
+}
+
+h2, h1, h3 {
+  text-align: center;
+  font-weight: bold;
+  color:white;
+}
+
+h3 {
+  color: 4BB559
 }
 
 /*HEADER*/
@@ -14,8 +25,7 @@ header {
   font-weight: bold;
 }
 
-header h1 {
-  text-align: center;
+h1 {
   padding-top: 20px;
 }
 
@@ -51,7 +61,7 @@ header span {
   background-color: #5E8763;
   opacity: 0.8;
   width: 50%;
-  height: 700px;
+  height: 550px;
   border-radius: 10px;
   padding: 30px;
 }
@@ -64,7 +74,6 @@ header span {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #4BF50F;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,29 +83,207 @@ header span {
 .fl {
   width: 95%;
   margin: auto;
-  background-color: red;
   margin-top: 30px;
 }
 
-#fl input {
+.fl input {
   width: 100%;
 }
 
+#acceptations {
+  font-weight: normal;
+  font-size: 12px;
+}
+
 #fb {
-  background-color: blueviolet;
   margin: auto;
   display: flex;
   justify-content: flex-end;
   margin-top: 30px;
 }
 
-#fb input {
-  width: 25%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+#fb input{
+  width: 35%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: white;
   border-radius: 5px;
+  color: black;
 }
+
+.hbutton {
+  height: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#fb input:nth-child(1), #fb input:nth-child(5){
+  width: 4%;
+}
+
+header select, input{
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1.5px solid white;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  outline: none;
+  color: white;
+  width: 45%;
+}
+
+header option {
+  background-color: white;
+  color: black;
+}
+
+header input::placeholder {
+  color: white;
+  opacity: 100%;
+}
+
+.exeption input{
+  padding: 0px;
+  width: 4%;
+}
+
+/*FIRST CONTAINER*/
+.contenu {
+  width: 70%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.contenu h2 {
+  color: black;
+  font-size: 40px;
+}
+
+.contenu h3 {
+  color: #4BB559;
+  text-align: left;
+}
+
+.under-containt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.under-containt img{
+  margin-right: 50px;
+}
+
+.txt-prime {
+  width: 50%;
+}
+
+.txt-prime p {
+  margin-top: 15px;
+}
+
+video {
+  width: 400px;
+  height: 400px;
+}
+
+#green-house {
+  width: 300px;
+}
+
+button {
+  background-color: #53BF2D;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #58e327;
+  cursor: pointer;
+}
+
+.contant-button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+/* BANDEAU */
+.bandeau {
+  margin-top: 100px;
+  background-color: #5E8763;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 25px;
+}
+
+/*SECOND CONTAINER*/
+#illustration {
+  width: 600px;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+.contenu li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contenu li:last-child {
+  margin-bottom: 20px;
+}
+
+#pac {
+  font-size: 30px;
+}
+
+.green-list {
+  color: #4BB559;
+  font-weight: bold;
+}
+
+#contenu2 {
+  margin-top: 50px
+}
+
+/* BANDEAU DISPO GOUV */
+#logo {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#logo img {
+  height: 80px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
