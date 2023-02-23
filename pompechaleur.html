@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>EcoSolutions</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,7 +26,7 @@
       </p>
       <div id="form">
         <p>Trouvez le meilleur montant d’aide pour installer votre pompe à chaleur</p>
-        <form>
+        <form action="POST">
           <div class="f2pl">
             <select id="status" name="status">
               <option value="">→ Vous êtes...</option>
@@ -102,7 +102,7 @@
               <input type="checkbox" id="offre" name="offre">
               <label for="offre">J'accepte de recevoir des offres personnalisées email, téléphone et sms de comparer-changer.fr ainsi que de ses partenaires</label>
             </div>
-            <input type="submit" value="VALIDER" class="hbutton">
+              <input type="submit" value="VALIDER" id="hbutton">
           </div>
       </form>
       </div>
@@ -144,7 +144,7 @@
         <img src="/img/greenhouse.gif" alt="gif" id="green-house">
     </div>
     <div class="contant-button">
-      <button>VÉRIFIER MON ÉLIGIBILITÉ</button>
+      <button><a href="#form">VÉRIFIER MON ÉLIGIBILITÉ</a></button>
     </div>
   </div>
 
@@ -171,7 +171,7 @@
           <li>→ <span class="green-list">Silencieuse</span>, elle fonctionne de manière discrète, avec un niveau sonore faible.</li>
           <li>→ <span class="green-list">Une longue durée de vie</span>, elle peut durer plus de 20 ans si elle est bien entretenue, ce qui en fait un investissement durable pour votre maison.</li>
         </ul>
-        <button>OBTENIR MA POMPE À CHALEUR</button>
+        <button><a href="#form">OBTENIR MA POMPE À CHALEUR</a></button>
       </div>
     </div>
   </div>
@@ -185,7 +185,7 @@
       <img src="/img/phast%20(2)%201.png" alt="logo de RGE eco artisan et logo de RGE QUALIBAT">
     </div>
     <div class="contant-button">
-      <button>CALCULER MES AIDES</button>
+      <button id="no-shadow"><a href="#form">CALCULER MES AIDES</a></button>
     </div>
   </div>
 
