@@ -26,7 +26,7 @@
       </p>
       <div id="form">
         <p>Recevez la meilleure offre pour concrétiser votre projet</p>
-        <form action="POST">
+        <form action="POST" action="pac.php">
           <div class="f2pl">
             <select id="statut" name="statut">
               <option value="">→ Vous êtes... <sup>*</sup></option>
@@ -57,14 +57,10 @@
           </div>
 
           <div class="fl exeption">
-            <input type="checkbox" id="homme" name="homme">
-            <label for="homme">Mr</label>
-
-            <input type="checkbox" id="femme" name="femme">
-            <label for="femme">Mme</label>
-
-            <input type="checkbox" id="non_définis" name="non_définis">
-            <label for="non_définis">Non définis</label>
+            <label>Sexe :</label>
+            <input type="radio" name="sexe" value="homme">Homme
+            <input type="radio" name="sexe" value="femme">Femme
+            <input type="radio" name="sexe" value="non_definis">Non définis
           </div>
 
           <div class="f2pl">
